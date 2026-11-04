@@ -1,7 +1,7 @@
 # Día 1 · API REST de Jira con Postman
 
 **Objetivo:** autenticarme en la API de Jira Cloud, crear y actualizar una historia por API antes de conectar una IA por MCP.
-**Tiempo:** [X h]
+**Tiempo:** [1 h]
 
 ## Qué hice
 - Espacio Jira con clave DEMO (antes SCRUM) y API token de Atlassian.
