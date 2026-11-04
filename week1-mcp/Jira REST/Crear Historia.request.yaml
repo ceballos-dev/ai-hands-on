@@ -1,0 +1,44 @@
+$kind: http-request
+description: ""
+url: "{{JIRA_URL}}/rest/api/3/issue"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"fields\": {\r
+
+    \    \"project\": { \"key\": \"DEMO\" },\r
+
+    \    \"issuetype\": { \"id\": \"10004\" },\r
+
+    \    \"summary\": \"Como cliente quiero recibir la factura en PDF por email\",\r
+
+    \    \"description\": {\r
+
+    \      \"type\": \"doc\",\r
+
+    \      \"version\": 1,\r
+
+    \      \"content\": [\r
+
+    \        {\r
+
+    \          \"type\": \"paragraph\",\r
+
+    \          \"content\": [\r
+
+    \            { \"type\": \"text\", \"text\": \"La factura se envía al confirmar el pago.\" }\r
+
+    \          ]\r
+
+    \        }\r
+
+    \      ]\r
+
+    \    }\r
+
+    \  }\r
+
+    }"
+order: 3000

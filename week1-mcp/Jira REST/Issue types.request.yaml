@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{JIRA_URL}}/rest/api/3/project/DEMO"
+method: GET
+order: 2000
