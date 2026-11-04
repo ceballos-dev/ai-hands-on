@@ -1,0 +1,8 @@
+$kind: collection
+auth:
+  - id: a95bd90c-e106-436a-98cd-7107266fa133
+    type: basic
+    name: Basic Auth
+    credentials:
+      username: "{{JIRA_EMAIL}}"
+      password: "{{vault:jira-token}}"
