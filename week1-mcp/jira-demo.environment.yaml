@@ -1,0 +1,8 @@
+name: jira-demo
+values:
+  - key: JIRA_URL
+    value: ''
+  - key: JIRA_EMAIL
+    value: ''
+  - key: JIRA_TOKEN
+    value: ''
