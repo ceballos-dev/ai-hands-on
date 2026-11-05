@@ -1,6 +1,6 @@
 # Día 2 · Claude conectado a Jira (conector MCP de Atlassian)
 
-**Tiempo:** ~1 h el paso 0 [ajustar el total]
+**Tiempo:** ~1 h
 
 ## Mi referencia antes de usar IA (paso 0)
 - Épica "Comunicación con Mercedes" con 3 historias: recuperación y listado de piezas de repuesto, pedido de piezas de repuesto, solicitud de stock de vehículos de fábrica.
